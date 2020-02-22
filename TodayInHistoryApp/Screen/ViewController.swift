@@ -219,11 +219,7 @@ class ViewController: BaseVC,UITableViewDelegate,UITableViewDataSource,UIScrollV
         }
     }
     
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let verticalIndicator: UIImageView = (scrollView.subviews[(scrollView.subviews.count - 1)] as! UIImageView)
-        verticalIndicator.backgroundColor = UIColor.lightGray
-
-    }
+    
     
     func selectedButton(btn:UIButton, hex:String, btnClear:UIButton) {
         btn.backgroundColor = colorFromARGB(hex: hex)

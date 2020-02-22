@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TodayInHistoryApp.xcodeproj">
+      location = "self:/Users/user/Desktop/TodayInHistoryApp1/TodayInHistoryApp.xcodeproj">
    </FileRef>
 </Workspace>
