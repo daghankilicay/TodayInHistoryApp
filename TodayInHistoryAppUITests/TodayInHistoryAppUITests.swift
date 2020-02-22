@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import TodayInHistoryApp
 
 class TodayInHistoryAppUITests: XCTestCase {
 
